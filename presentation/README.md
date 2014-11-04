@@ -1,4 +1,4 @@
-# ws3c project
+# Our ws3c project presentation
 > A [Bespoke.js](http://markdalgleish.com/projects/bespoke.js) presentation, built with [generator-bespoke](https://github.com/markdalgleish/generator-bespoke)
 
 ## View slides locally
@@ -15,3 +15,13 @@ Then, install dependencies and run the preview server:
 $ npm install && bower install
 $ gulp serve
 ```
+
+## Publish slides on github pages
+
+Simply do:
+
+```bash
+$ gulp deploy
+```
+
+> If you have [two-factor authentication](https://help.github.com/articles/about-two-factor-authentication/) enabled, you must create a [personal access](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) token to use instead of your GitHub password.
