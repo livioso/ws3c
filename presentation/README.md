@@ -24,4 +24,6 @@ Simply do:
 $ gulp deploy
 ```
 
+Then, after a short while the slides should be available [here](https://livioso.github.io/ws3c/).
+
 > If you have [two-factor authentication](https://help.github.com/articles/about-two-factor-authentication/) enabled, you must create a [personal access](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) token to use instead of your GitHub password.
