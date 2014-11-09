@@ -11,7 +11,7 @@ var bespoke = require('bespoke'),
 
 // Bespoke.js
 bespoke.from('article', [
-  nebula(),
+  cube(),
   keys(),
   touch(),
   bullets('li, .bullet'),
