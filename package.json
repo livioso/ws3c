@@ -1,0 +1,23 @@
+{
+  "name": "bazonline.ch",
+  "version": "1.0.0",
+  "description": "Bazonline.ch Redesign",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.1",
+    "gulp-minify-css": "^0.3.11",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:livioso/ws3c.git"
+  },
+  "author": "Marius Küng & Livio Bieri",
+  "license": "ISC"
+}
