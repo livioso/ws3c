@@ -1,0 +1,39 @@
+// global scss
+
+.column,
+.columns {
+  position: relative;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background: #FFF;
+
+  .container {
+    border-bottom: 5px solid #cc1c00;
+  }
+
+  .fa-bars {
+    color: #000;
+    font-size: 3em;
+  }
+}
+
+section {
+  padding-top: 85px;
+
+  .hero {
+    height: 400px;
+    background-image: url("../images/sf.JPG");
+    background-size: cover;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+}

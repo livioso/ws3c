@@ -1,13 +1,4 @@
-.hero {
-  height: 400px;
-  background-image: url("../images/sf.JPG");
-  background-size: cover;
-}
-
-.column,
-.columns {
-  position: relative;
-}
+@import 'global';
 
 .desc {
   position: absolute;
