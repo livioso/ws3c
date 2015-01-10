@@ -17,4 +17,35 @@
     }
   }
 
+  .article-meta {
+    color: #A1A1A1;
+  }
+
+  .socials {
+    margin: 20px 0;
+    a {
+      color: #000;
+      font-size: 2em;
+      margin-right: 10px;
+    }
+  }
+
+  .comments-count {
+    background-color: $RED;
+    border-radius: 100%;
+    color: #FFF;
+    font-size: 2em;
+    padding: 3px 13px 28px 17px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .comments {
+    p {
+      margin-bottom: 1em;
+    }
+    .fa-user {
+      font-size: 4em;
+    }
+  }
 }
