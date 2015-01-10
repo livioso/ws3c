@@ -23,9 +23,20 @@ header {
     border-bottom: 5px solid #cc1c00;
   }
 
+  .menu {
+    right: 0;
+    position: absolute;
+    z-index: 300;
+  }
+
   .fa-bars {
     color: #000;
     font-size: 3em;
+  }
+
+  h1 a {
+    color: #000;
+    text-decoration: none;
   }
 }
 
@@ -62,6 +73,56 @@ section {
     opacity: 0.8;
   }
 
+  .news-section {
+    color: #FFF;
+    background-color: $RED;
+
+    h4 {
+      margin: 5px 10px;
+    }
+  }
+
+}
+
+.search {
+  position: fixed;
+  width: 30%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 200;
+  background-color: $RED;
+  padding: 3em 2em;
+  text-align: center;
+  display: none;
+  &.hidden {
+
+  }
+
+  input {
+    margin-bottom: 3em;
+  }
+
+  .most-searched {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+
+    a {
+      font-size: 1.5em;
+      text-decoration: none;
+      margin-right: 0.5em;
+      color: #FFF;
+    }
+  }
+
+  .imprint {
+    display: inline-block;
+    margin-top: 3em;
+    color: #FFF;
+    font-size: 1.5em;
+  }
 }
 
 

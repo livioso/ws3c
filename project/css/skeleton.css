@@ -76,7 +76,7 @@
   .one-third.column               { width: 32.3%; }
   .two-thirds.column              { width: 65.3333333333%; }
 
-  .one-half.column                { width: 49%; }
+  .one-half.column                { width: 49.5%; }
 
   /* Offsets */
   .offset-by-one.column,
