@@ -1,8 +1,29 @@
 // global scss
+@import '../css/normalize.css';
+@import '../css/skeleton.css';
+
+
+html, body {
+  font-family: Helvetica, Arial, sans-serif;
+}
 
 .column,
 .columns {
   position: relative;
+}
+
+.one-third.column {
+  width: 32.3%;
+  margin-left: 1%;
+}
+
+.one-half.column {
+  width: 49%;
+  margin-left: 1%;
+}
+
+.column:first-child {
+  margin-left: 0;
 }
 
 header {
@@ -24,10 +45,25 @@ header {
 section {
   padding-top: 85px;
 
+  .one-third, .one-half {
+    min-height: 300px;
+  }
+
   .hero {
-    height: 400px;
-    background-image: url("../images/sf.JPG");
+    height: 500px;
+    background-image: url("../images/2156068_pic_970x641.jpg");
     background-size: cover;
+  }
+
+  .desc {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    padding: 1%;
+    background-color: #FFF;
+    opacity: 0.8;
   }
 }
 
