@@ -103,16 +103,11 @@ section {
   height: 100%;
   top: 85px;
   bottom: 0;
-  right: 0;
+  right: -1000px;
   z-index: 200;
   background-color: $RED;
   padding: 3em 2em;
   text-align: center;
-  display: none;
-
-  &.show {
-    display: block;
-  }
 
   input {
     margin-bottom: 3em;
