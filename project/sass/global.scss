@@ -3,6 +3,7 @@
 @import '../css/skeleton.css';
 
 $RED: #cc1c00;
+$RESPONSIVE_WIDTH: 1000px;
 
 html, body {
   font-family: Helvetica, Arial, sans-serif;
@@ -22,15 +23,17 @@ header {
   width: 100%;
   z-index: 100;
   background: #FFF;
+  height: 70px;
+  border-bottom: 5px solid #cc1c00;
 
   .container {
     width: 100%;
     max-width: none;
-    border-bottom: 5px solid #cc1c00;
   }
 
   .menu {
-    right: 0;
+    top: 10px;
+    right: 10px;
     position: absolute;
     z-index: 300;
   }
@@ -40,18 +43,29 @@ header {
     font-size: 3em;
   }
 
-  .columns {
+  .twelve {
     text-align: center;
   }
 
-  h1 a {
-    color: #000;
-    text-decoration: none;
+  h1 {
+    margin-bottom: 0;
+
+    img {
+      display: block;
+      margin-top: 10px;
+      margin: 10px auto 0;
+      width: auto;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+    }
   }
 }
 
 section {
-  padding-top: 85px;
+  padding-top: 70px;
 
   .article-link {
     display: block;
@@ -66,10 +80,18 @@ section {
     min-height: 300px;
   }
 
+  .sidebar {
+    .one-third, .one-half {
+      padding: 0 1em;
+      min-height: 0;
+    }
+  }
+
   .hero {
     height: 500px;
     background-image: url("../images/2156068_pic_970x641.jpg");
     background-size: cover;
+    background-position: center center;
   }
 
   .desc {
@@ -135,8 +157,37 @@ section {
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: $RESPONSIVE_WIDTH) {
   .container {
     width: 100%;
+  }
+
+  .article {
+    padding-top: 70px;
+  }
+
+  section {
+    .desc {
+      padding: 1% 1em;
+    }
+  }
+
+  header {
+    h1 {
+      img {
+        margin-top: 15px;
+        width: 250px;
+        height: auto;
+      }
+    }
+  }
+
+  .search {
+    width: 100%;
+    top: 70px;
+  }
+
+  .menu {
+    text-align: right;
   }
 }

@@ -3,7 +3,15 @@ var search = document.querySelector(".search");
 var searchWidth = 0;
 
 menu.onclick = function() {
+
+
   if (parseInt($(search).css("right")) !== 0) {
+    searchWidth = -$(search).width() - 60;
+
+    $(search).css({
+      right: searchWidth
+    });
+
     $(search).animate({
       right: 0
     });
@@ -20,11 +28,5 @@ $(document).ready(function() {
     prevEffect : 'none',
     nextEffect : 'none',
     padding    : '0'
-  });
-
-  searchWidth = -$(search).width() - 60;
-
-  $(search).css({
-    right: searchWidth
   });
 });
