@@ -80,6 +80,11 @@ section {
     min-height: 300px;
   }
 
+  .column {
+    background-size: cover;
+    background-position: center center;
+  }
+
   .sidebar {
     .one-third, .one-half {
       padding: 0 1em;
@@ -160,6 +165,7 @@ section {
 @media (max-width: $RESPONSIVE_WIDTH) {
   .container {
     width: 100%;
+    padding: 0;
   }
 
   .article {
@@ -184,6 +190,7 @@ section {
 
   .search {
     width: 100%;
+    padding: 3em 0;
     top: 70px;
   }
 
