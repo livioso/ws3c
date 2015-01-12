@@ -17,7 +17,7 @@ menu.onclick = function() {
     });
   } else {
     $(search).animate({
-      right: searchWidth
+      right: searchWidth - 500
     });
   }
 
