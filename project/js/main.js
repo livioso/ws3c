@@ -2,8 +2,8 @@ var menu = document.querySelector(".menu a");
 var search = document.querySelector(".search");
 var searchWidth = 0;
 
-menu.onclick = function() {
-
+menu.onclick = function(e) {
+    e.preventDefault();
 
   if (parseInt($(search).css("right")) !== 0) {
     searchWidth = -$(search).width() - 60;
